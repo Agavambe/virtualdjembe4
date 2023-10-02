@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+	<title>Agavambe drum 12" fiberskin</title>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type=”text/javascript”></script> -->
+<!--<script type="text/javascript" src="jquery-1.3.1.min.js"></script>-->
+<!--<script type="text/javascript" src="jquery.scrollTo.js"></script>-->
+<!--<script type="text/javascript" src="jquery-migrate-1.2.1.min.js"></script>-->
+<script>
+
+$(document).ready(function() {
+
+	$('a.panel').click(function () {
+
+		$('a.panel').removeClass('selected');
+		$(this).addClass('selected');
+		
+		current = $(this);
+		
+		$('#wrapper').scrollTo($(this).attr('href'), 800);		
+		
+		return false;
+	});
+
+	$(window).resize(function () {
+		resizePanel();
+	});
+	
+});
+
+function resizePanel() {
+
+	width = $(window).width();
+	height = $(window).height();
+
+	mask_width = width * $('.item').length;
+		
+	$('#debug').html(width  + ' ' + height + ' ' + mask_width);
+		
+	$('#wrapper, .item').css({width: width, height: height});
+	$('#mask').css({width: mask_width, height: height});
+	$('#wrapper').scrollTo($('a.selected').attr('href'), 0);
+		
+}
+
+</script>
+
+<style>
+
+body {
+	height:100%;
+	width:100%;
+	margin:0;padding:0;
+	overflow:hidden;
+}
+
+#wrapper {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;left:0;
+	background-color:#ccc;
+	overflow:hidden;
+}
+
+	#mask {
+		width:500%;
+		height:100%;
+		background-color:#eee;
+	}
+
+	.item {
+		width:20%;
+		height:100%;
+		float:left;
+		background-color:#fff;
+	}
+	
+	
+	.content {
+		width:670px;
+		height:500px;
+		top:1%;
+		margin:0 auto;
+		background-color:#fff;
+		position:relative;
+	}
+		.content2 {
+		width:670px;
+		height:500px;
+		top:1%;
+		margin:0 auto;
+		background-color:#fff;
+		position:relative;
+	}
+	
+		.content3 {
+		width:670px;
+		height:500px;
+		top:1%;
+		margin:0 auto;
+		background-color:#fff;
+		position:relative;
+	}
+	
+	.selected {
+		background:#fff;
+		font-weight:700;
+	}
+
+	.clear {
+		clear:both;
+	}
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="mask">
+		<div id="item1" class="item">
+			<a name="item1"></a>
+<div class="content"><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#FF0000"></font></b></font>
+<!--<a href="#item1" class="panel">1</a>-->
+		<table width="650" border="0">
+          <tr> 
+            <td valign="top"> <a href="#item4" class="panel"><img src="http://i1295.photobucket.com/albums/b631/agavambe/demovkvalit_zps3848e386.jpg" width="281" height="46" title="Demo visoke kvalitete"></a> 
+              <br>
+             <br>
+              <font face="Times New Roman, Times, serif" color="#D94622" size="4"><b><font size="4" face="Arial, Helvetica, sans-serif">Agavambe 
+              djembe 12" fiberskin</font></b></font><br>
+              <br>
+              <font size="2" face="Arial, Helvetica, sans-serif" color="#666666"> 
+              <font size="3" color="#000000"><b>- visina bubnja 64 cm</b> <br>
+              <b>- koža Remo fiberskin 3</b><br>
+              <b>- širina kože 30 cm</b></font><br>
+              <br><br>
+              <a href="#item5" class="panel"><img src="http://i1295.photobucket.com/albums/b631/agavambe/cijena_zps185c6eb4.jpg" width="117" height="46" title="Cijena"></a><br>
+              <br>
+</font> </td>
+            <td width="255" valign="middle"><iframe width="310" height="290" src="http://www.youtube.com/embed/D0ulnlvAs-A?rel=0" frameborder="0" allowfullscreen></iframe> 
+            </td>
+          </tr>
+        </table>
+</div>
+      <div> <!--Welcome--><br>
+</div>			
+		</div>
+		
+		<div id="item2" class="item">
+			<a name="item2"></a>
+			
+      <div class="content"><font face="Arial, Helvetica, sans-serif" size="2" color="#FF0000"><b></b></font><font face="Arial, Helvetica, sans-serif" size="2"> 
+        <a href="#item1" class="panel">back</a><br><br>
+        Something...</font></div>
+		</div>
+		
+		<div id="item3" class="item">
+			<a name="item3"></a>
+			
+      <div class="content3">
+        <a href="#item1" class="panel">back</a>
+       
+              </div>
+		</div>
+		<div id="item4" class="item">
+			<a name="item4"></a>
+      <div class="content2"><a href="#item1" class="panel"><img src="http://i1295.photobucket.com/albums/b631/agavambe/nazad2_zpsa2af67e7.jpg" width="281" height="46" title="Nazad"></a><br>
+        <b>Ovdje nesto napisati</b> 
+        <table width="513" cellpadding="0" cellspacing="0" border="0" align="center" height="499">
+          <tr> 
+            <td valign="top" rowspan="2" align="left" height="136"> 
+              <div align="right"><a href="#current" onFocus="if(this.blur)this.blur()" onclick="clicksound9.playclip()");"> 
+                </a></div>
+              <div align="right"></div>
+            </td>
+            <td valign="top" width="181" align="left" height="136"> 
+              <div align="right"><a href="#current" onFocus="if(this.blur)this.blur()" onClick="clicksound9.playclip()");"><img src="fiberskin-bass.gif" width="250" height="135" border="0" onMouseOver="this.src = 'fiberskin-bass-over.gif';"  onMouseOut="this.src = 'fiberskin-bass.gif';" ></a></div>
+            </td>
+          </tr>
+          <tr> 
+            <td valign="top" width="181" align="left"> 
+              <div align="right"><a href="#current" onFocus="if(this.blur)this.blur()" onClick="clicksound10.playclip()");"><img src="fiberskin-snare.gif" width="250" height="111" border="0" onMouseOver="this.src = 'fiberskin-snare-over.gif';"  onMouseOut="this.src = 'fiberskin-snare.gif';" ></a></div>
+            </td>
+          </tr>
+        </table>
+  
+
+
+<br>
+<br>
+</div>
+		</div>
+		<div id="item5" class="item">
+			<a name="item5"></a>
+      <div class="content"><a href="#item1" class="panel"><img src="http://i1295.photobucket.com/albums/b631/agavambe/nazad2_zpsa2af67e7.jpg" width="281" height="46" title="Nazad"></a><br>
+     <!--   <font color="#000066"><b><font face="Arial, Helvetica, sans-serif" size="2" color="#003333">&nbsp;Ako 
+        ste zainteresirani ostavite mi vaš Email i odaberite model bubnja. <br>
+        &nbsp;Odgovor šaljem na vaš Email.</font></b></font><br>-->
+		
+		<script src="http://www.emailmeform.com/builder/forms/jsform/g2fpTwc3LGPUo3N10c5040qRI" type="text/javascript"></script>
+<div style="margin-top:18px;text-align:center"><div id='emf_advertisement'><font face="Verdana" size="2" color="#000000">Powered by</font>
+<span style="position: relative; padding-left: 3px; bottom: -5px;"><img src="http://assets.emailmeform.com/images/footer-logo.png">
+</span><font face="Verdana" size="2" color="#000000">EMF</font>
+<a style="text-decoration:none;" href="http://www.emailmeform.com/" target="_blank">
+<font face="Verdana" size="2" color="#000000">Online HTML Form</font></a>
+</div></div>
+		
+<br>
+      </div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+
+<!-- Hosting24 Analytics Code -->
+<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
+<!-- End Of Analytics Code -->

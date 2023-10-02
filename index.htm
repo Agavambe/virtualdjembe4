@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>virtual djembe agavambe drums </title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+body
+{
+
+}
+</style>
+<script>
+
+// Mouseover/ Click sound effect- by JavaScript Kit (www.javascriptkit.com)
+// Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+
+//** Usage: Instantiate script by calling: var uniquevar=createsoundbite("soundfile1", "fallbackfile2", "fallebacksound3", etc)
+//** Call: uniquevar.playclip() to play sound
+
+var html5_audiotypes={ //define list of audio file extensions and their associated audio types. Add to it if your specified audio file isn't on this list:
+	"mp3": "audio/mpeg",
+	"mp4": "audio/mp4",
+	"ogg": "audio/ogg",
+	"wav": "audio/wav"
+}
+
+function createsoundbite(sound){
+	var html5audio=document.createElement('audio')
+	if (html5audio.canPlayType){ //check support for HTML5 audio
+		for (var i=0; i<arguments.length; i++){
+			var sourceel=document.createElement('source')
+			sourceel.setAttribute('src', arguments[i])
+			if (arguments[i].match(/\.(\w+)$/i))
+				sourceel.setAttribute('type', html5_audiotypes[RegExp.$1])
+			html5audio.appendChild(sourceel)
+		}
+		html5audio.load()
+		html5audio.playclip=function(){
+			html5audio.pause()
+			html5audio.currentTime=0
+			html5audio.play()
+		}
+		return html5audio
+	}
+	else{
+		return {playclip:function(){throw new Error("Your browser doesn't support HTML5 audio unfortunately")}}
+	}
+}
+
+//Initialize two sound clips with 1 fallback file each:
+
+//var mouseoversound=createsoundbite("test2.mp3")
+var clicksound=createsoundbite("abb-snare.wav")
+var clicksound2=createsoundbite("agavambe-snare.wav")
+var clicksound3=createsoundbite("agavambe-bass.wav")
+var clicksound4=createsoundbite("abb-bass.wav")
+var clicksound5=createsoundbite("ag13 - bass.wav")
+var clicksound6=createsoundbite("ag13 - snare.wav")
+var clicksound7=createsoundbite("a-8 emperort-bass.wav")
+var clicksound8=createsoundbite("a-8 emperort-snare.wav")
+var clicksound9=createsoundbite("a-fiberskin-bass.wav")
+var clicksound10=createsoundbite("a-fiberskin-snare.wav")
+var clicksound11=createsoundbite("a-14 goat-bass.wav")
+var clicksound12=createsoundbite("a-14 goat-snare.wav")
+</script>
+</head>
+
+<body bgcolor="" text="#000000">
+<table width="810" cellpadding="0" cellspacing="0" border="0" align="center">
+  <tr> 
+    <td valign="bottom" width="361" align="left"> 
+      <div align="right"><a href="#current" onFocus="if(this.blur)this.blur()" onclick="clicksound7.playclip()");"><br>
+        <br>
+        <img src="ag-8%20emper-bass.gif" width="212" height="118" border="0" onmouseover="this.src = 'ag-8%20emper-bass-over.gif';"  onmouseout="this.src = 'ag-8%20emper-bass.gif';" ></a> 
+      </div>
+    </td>
+    <th valign="top" rowspan="2" align="left"> 
+      <div align="center"><a href="#current" onFocus="if(this.blur)this.blur()" onclick="clicksound3.playclip()");"> 
+        <img src="agavambe-bass.gif" width="212" height="116" border="0" onmouseover="this.src = 'agavambe-bass-over.gif';"  onmouseout="this.src = 'agavambe-bass.gif';" ></a> 
+      </div>
+      <div align="center"><a href="#current" onFocus="if(this.blur)this.blur()" onclick="clicksound2.playclip()");"><img src="agavambe-snare.gif" width="212" height="100" border="0" onmouseover="this.src = 'agavambe-snare-over.gif';"  onmouseout="this.src = 'agavambe-snare.gif';" ></a></div>
+    </th>
+    <td valign="bottom" width="361" align="left"> 
+      <div align="left"><a href="#current" onFocus="if(this.blur)this.blur()" onclick="clicksound4.playclip()");"><br>
+        <br>
+        </a> </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" width="361" align="left"> 
+      <div align="right"><a href="#current" onFocus="if(this.blur)this.blur()" onclick="clicksound8.playclip()");"><img src="ag-8%20emper-snare.gif" width="212" height="89" border="0" onmouseover="this.src = 'ag-8%20emper-snare-over.gif';"  onmouseout="this.src = 'ag-8%20emper-snare.gif';" ></a></div>
+    </td>
+    <td valign="top" width="361" align="left"> 
+      <div align="left"></div>
+    </td>
+  </tr>
+</table>
+<table width="810" cellpadding="0" cellspacing="0" border="0" align="center">
+  <tr> 
+    <td valign="bottom" width="361" align="left"> 
+      <div align="right"><a href="#current" onFocus="if(this.blur)this.blur()" onclick="clicksound9.playclip()");"> 
+        <img src="fiberskin-bass.gif" width="250" height="135" border="0" onmouseover="this.src = 'fiberskin-bass-over.gif';"  onmouseout="this.src = 'fiberskin-bass.gif';" ></a> 
+      </div>
+    </td>
+    <td valign="top" rowspan="2" align="left"> 
+      <div align="left"><a href="#current" onFocus="if(this.blur)this.blur()" onclick="clicksound11.playclip()");"> 
+        <img src="14%20bass.gif" width="265" height="150" border="0" onmouseover="this.src = '14%20bass-over.gif';"  onmouseout="this.src = '14%20bass.gif';" ></a> 
+      </div>
+      <div align="left"><a href="#current" onFocus="if(this.blur)this.blur()" onclick="clicksound12.playclip()");"><img src="14%20snare.gif" width="265" height="116" border="0" onmouseover="this.src = '14%20snare-over.gif';"  onmouseout="this.src = '14%20snare.gif';" ></a><br>
+        <img src="blank.gif" height="1" width="10"><img src="blank.gif" height="100" width="1"></div>
+    </td>
+    <td valign="bottom" width="361" align="left"> 
+      <div align="left"><a href="#current" onFocus="if(this.blur)this.blur()" onclick="clicksound5.playclip()");"><br>
+        <br>
+        </a> </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" width="361" align="left"> 
+      <div align="right"><a href="#current" onFocus="if(this.blur)this.blur()" onclick="clicksound10.playclip()");"><img src="fiberskin-snare.gif" width="250" height="111" border="0" onmouseover="this.src = 'fiberskin-snare-over.gif';"  onmouseout="this.src = 'fiberskin-snare.gif';" ></a></div>
+    </td>
+    <td valign="top" width="361" align="left"> 
+      <div align="left"></div>
+    </td>
+  </tr>
+</table>
+  
+
+</body>
+</html>

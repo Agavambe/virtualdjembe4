@@ -1,0 +1,49 @@
+.header {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: none}
+.header a:link {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: none}
+.header a:visited {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: none}
+.header a:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; font-weight: bold; color: #3399CC; text-decoration: none}
+.naslovi { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-style: normal; font-weight: bolder; color: #FFFFFF}
+.body { font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-style: normal; font-weight: normal; color: #000000; text-decoration: none ; text-align: justify}
+.body a:link { font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-style: normal; font-weight: bold; color: navy; text-decoration: none ; text-align: justify}
+.body a:visited{ font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-style: normal; font-weight: bold; color: navy; text-decoration: none ; text-align: justify}
+.body a:hover{ font-family:  Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-style: normal; font-weight: bold; color: #e71f24; text-decoration: none ; text-align: justify}
+.body2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; font-weight: bold; color: #FF6600; text-decoration: none ; text-align: justify}
+.quest { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-style: normal; font-weight: normal; color: #000000; text-decoration: none}
+.bottom { font-family: sans-serif, Verdana, Arial, Helvetica; font-size: 10px; font-style: normal; font-weight: normal; color: #000000}
+.bottom a:link{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-style: normal; font-weight: normal; color: maroon; text-decoration: none}
+.bottom a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-style: normal; font-weight: normal; color: maroon; text-decoration: none}
+.bottom a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-style: normal; font-weight: normal; color: navy; text-decoration: none}
+.doli { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; color: #FFFFFF; text-decoration: none }
+.doli a:link{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: none }
+.doli a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: none }
+.doli a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #00FFFF; text-decoration: none }
+.bottomb { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; font-weight: bold; color: #000000 }
+.bottomb a:link{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; font-weight: normal; color: #000000; text-decoration: underline}
+.bottomb a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; font-weight: normal; color: #000000; text-decoration: underline}
+.bottomb a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; font-weight: normal; color: #000000; text-decoration: underline}
+.bottombw { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; font-weight: bold; color: #FFFFFF}
+.drop1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: #000000; background-color: #ffffff;}
+.drop { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: italic; font-weight: normal; color: #000000; background-color: #cdfcfc;}
+.naslovib { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; font-style: normal; font-weight: bolder; color: #000000}
+.minib { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; font-weight: bold; color: #000000; text-decoration: none }
+.headerbz { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: none }
+.bodyb { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #000000; text-decoration: none; background-color: #E3F0EC; ; background-image: none}
+.bodyb a:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #000000; text-decoration: none; background-color: #E3F0EC;}
+.bodyb a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #000000;text-decoration: none; background-color: #E3F0EC;}
+.bodyb a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #ffffff ;text-decoration: none; background-color: #000000; }
+.bodyw { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #FFFFFF }
+.naslovis { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; font-style: normal; font-weight: bolder; color: #000000 }
+.bodyt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-style: normal; font-weight: normal; color: #000000; text-decoration: none }
+.emax { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; color: e71f24; text-decoration: none }
+.emax a:link{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #336666; text-decoration: none }
+.emax a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #336666; text-decoration: none }
+.emax a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #336666; text-decoration: underline }
+.emaxd { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #e71f24; text-decoration: none }
+.emaxd a:link{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #000000; text-decoration: none }
+.emaxd a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #000000; text-decoration: none }
+.emaxd a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #e71f24; text-decoration: underline }
+.podmeni{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: white; text-decoration: none; }
+.podmeni a:link{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: white; text-decoration: none; BORDER-BOTTOM: #E71F24 1px solid; }
+.podmeni a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: white; text-decoration: none; BORDER-BOTTOM: #E71F24 1px solid; }
+.podmeni a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #00FFFF; text-decoration:none;background-color: navy; BORDER-TOP: #00FFFF 1px solid; BORDER-BOTTOM: #00FFFF 1px solid;}
+.in_put { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-style: normal; font-weight: normal; color: black; background-color: #cdfcfc;  }
